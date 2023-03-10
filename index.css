@@ -1,0 +1,117 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+#container{
+    width: 100%;
+    background-color: antiquewhite;
+}
+#naglowek{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 148, 185);
+    color: white;
+    padding: 1%;
+    min-height: 100px;
+    position:fixed;
+}
+#main{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 110px;
+    background-color: white;
+    display: flex;
+}
+#student{
+    width: 18%;
+    padding: 1%;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: Arial;
+    display: list-item;
+    vertical-align: middle;
+    padding-top: 40px;
+}
+#tresc{
+    width: 50%;
+    padding: 5%;
+    background-color: white;
+    border-left: 2px black dashed;
+    border-right: 2px black dashed;
+    
+    
+}
+ul{
+
+    list-style: none;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+li{
+    margin: 20px;
+}
+
+.iconZad{
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.linki{
+    background-color: rgb(248, 255, 219);
+    width: auto;
+    height: auto;
+    float: none;
+    padding: 10px;
+    height: auto;
+    border-radius: 40px;
+    border-style: solid;
+    border-color:black;
+    text-decoration: none;
+    color: black;
+    
+}
+.linki:hover{
+    transition: background-color 0.5s;
+    background-color: rgb(139, 228, 255);
+}
+#dodatki{
+    width: 18%;
+    background-color: antiquewhite;
+    padding: 1%;
+    padding-top: 40px;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+}
+
+#opisStudent{
+    margin: 20px;
+}
+
+.zdjecie{
+    width:90%;
+    margin: auto 0;   
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#footer{
+    background-color: rgb(0, 148, 185);
+    
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+    
+}
+#logo{
+    padding-top: 30px;
+    border-radius: 50%;
+}
